@@ -1,0 +1,315 @@
+/* Style sheet created by: Nisha Nisha(736098), Kirandeep Kaur, Xiao Wu, Palwinder kaur */
+
+/* Style for body specifies a background color */
+body 
+{
+	background-color: #C8DBE3;
+}
+
+body li a:active
+{
+	color: white;
+}
+
+body li a:visited 
+{
+	color: white;
+}
+
+/* style for image*/
+#banner img 
+{
+	width: 100%;
+}
+
+/* style for image */
+img
+{
+	max-width: 100%;
+}
+
+/* Style for the container element */
+#container 
+{
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Style for the header element */
+header 
+{
+	font-family: Verdana, Arial, sans-serif;
+	margin-top: 0.2em;
+	background-color: #183440;
+	color: #FFFFFF;
+	padding: 0.5%;
+}
+
+/* Style for the nav element */
+nav 
+{
+	background-color: #183440;
+	padding: 0.5%;
+}
+
+/* Style for the nav list item elements */
+nav li 
+{
+	display: inline;
+	list-style-type: none;
+	margin: 0.4em;
+	padding: 0.5em;
+}
+
+/* Style for the nav links element */
+nav li a 
+{
+	color: #FFFFFF;
+	padding-left: 2%;
+	padding-right: 2%;
+	text-decoration: none;
+}
+
+/* Style rules for pseudo-classes */
+nav li a:link 
+{
+	color: #FFFFFF;
+}
+
+nav li a:hover 
+{
+	color: #CCFFCC;
+	font-size: 1.5em;
+}
+
+/* Style for the main element */
+main 
+{
+	display: block;
+	margin: 1%;
+	padding: 1em;
+	border-radius: 1em;
+	background-color: #FFFFFF;
+	box-shadow: .5em .5em .5em #404040;
+	float: left;
+	width: 65%;
+}
+
+/* Style for the footer element */
+footer 
+{
+	font-size: .70em;
+	text-align: center;
+	clear: left;
+	text-decoration: underline overline;
+	font-family: Verdana, Arial, sans-serif;
+	margin-top: 0.5em;
+	background-color: #183440;
+	color: #FFFFFF;
+	padding: 0.2%;
+}
+
+footer a 
+{
+	color: white;
+}
+
+footer a:active 
+{
+	color: white;
+}
+
+footer a:visited 
+{
+	color: white;
+}
+
+footer table 
+{
+	width: 100%;
+}
+
+/* Style for div named span */
+#span 
+{
+	text-align: center;
+}
+
+/* Style for the section element */
+section 
+{
+	background-color: #183440;
+	color: #FFFFFF;
+	margin-top: 4%;
+	padding: 1%;
+}
+
+section td 
+{
+	padding: 0;
+	margin: 0;
+}
+
+section img 
+{
+	display: block;
+	width: 100%;
+}
+
+/* Style for the article element */
+article 
+{
+	background-color: white;
+	border-radius: 3em;
+	color: #000000;
+	margin-top: 1%;
+	padding: 2%;
+}
+
+.clear 
+{
+	clear: both;
+}
+
+/* Style for the aside element */
+aside 
+{
+	background-color: #183440;
+	border-radius: 3em;
+	width: 25%;
+	float: right;
+	padding: 2%;
+	margin-top: 1%;
+	color: #FFFFFF;
+}
+
+aside img 
+{
+	width: 400px;
+	height: 250px;
+}
+
+/* Style for the desktop */
+@media only screen and (min-width: 992px) 
+{
+	* 
+	{
+		margin: 0;
+		padding: 0;
+	}
+	header table 
+	{
+		width: 100%;
+	}
+	main table 
+	{
+		width: 100%;
+	}
+	section 
+	{
+		width: 100%;
+		height: 100%;
+	}
+	.videos table 
+	{
+		width: 100%;
+	}
+	.videos iframe 
+	{
+		width: 100%;
+		height: 300px;
+		border: 0;
+	}
+	aside tr 
+	{
+		text-align: center;
+	}
+}
+
+/* Style for mobile view */
+@media (max-width: 1080px) 
+{
+	* 
+	{
+		margin: 0;
+		padding: 0;
+	}
+	aside 
+	{
+		width: 100%;
+		margin: 1em auto;
+		border-radius: 1em;
+		box-sizing: border-box;
+	}
+	aside img 
+	{
+		border-radius: 1em;
+	}
+	aside h3 
+	{
+		text-align: center;
+		width: 100%;
+	}
+	aside table 
+	{
+		width: 100%;
+	}
+	main 
+	{
+		display: block;
+		margin: 0%;
+		padding: 1em;
+		margin-top: 0.6em;
+		width: 100%;
+		border-radius: 1em;
+		background-color: #FFFFFF;
+		box-shadow: .5em .5em .5em #404040;
+		float: left;
+		box-sizing: border-box;
+	}
+	section 
+	{
+		width: 100%;
+		padding: 0;
+	}
+	header table 
+	{
+		width: 100%;
+	}
+	header td 
+	{
+		width: 100%;
+		height: 50px;
+		text-align: center;
+	}
+	header td img 
+	{
+		height: 50px;
+	}
+	header .nav-close 
+	{
+		display: none;
+	}
+	header .nav 
+	{
+		display: block;
+	}
+	header .nav li 
+	{
+		list-style: none;
+		text-align: center;
+	}
+	header .nav li a 
+	{
+		line-height: 30px;
+		text-decoration: none;
+		color: #fff;
+	}
+}
+
+/* style for nav class */
+.nav 
+{
+	display: none;
+}
